@@ -8,6 +8,7 @@ const Router = Ember.Router.extend({
 
 Router.map(function() {
   this.route('v1');
+  this.route('v2');
 });
 
 export default Router;

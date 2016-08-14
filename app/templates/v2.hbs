@@ -1,0 +1,18 @@
+<div class="flex">
+  <label>
+    Horses
+    {{input type="number" value=horses min=0}}
+  </label>
+  <label>
+    Chickens
+    {{input type="number" value=chickens min=0}}
+  </label>
+  <label>
+    <strong>Total</strong>
+    {{input type="number" value=model.total disabled=true}}
+  </label>
+
+  <div class="flex__block"></div>
+
+  <button {{action "refresh"}}>Reset</button>
+</div>
